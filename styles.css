@@ -1,3 +1,20 @@
 .title {
     text-align: center;
 }
+.data-table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse; /* by linie nie dublowały się */
+}
+
+.data-table th,
+.data-table td {
+  border: 1px solid black;   /* pojedyncza linia */
+  padding: 8px;
+}
+
+.data-table th {
+  background: black;         /* czarne tło nagłówka */
+  color: white;              /* białe litery */
+  text-align: left;
+}
